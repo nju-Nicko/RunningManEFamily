@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">跑男e族!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">Running, man!</string>
+    <string name="title_activity_index">跑男选择</string>
+	<string name="hint1">角色名称: 请选择跑男</string>
+	<string name="hint2">角色技能: 请选择跑男</string>
+	<string name="start">开始奔跑！</string>
+	<string name="g1">角色名称：陈赫</string>
+	<string name="a1">角色技能：[眉毛舞]，陈赫擅长眉毛舞，然而这对于跑酷来说并没有什么用。基本角色，无特殊技能。</string>
+    <string name="g2">角色名称：angelababy</string>
+	<string name="a2">角色技能：[O！女神！]，技能将在后续版本中增加。</string>
+	<string name="g3">角色名称：邓超</string>
+	<string name="a3">角色技能：[学霸来袭]，学霸超可以让道具出现的几率增加。</string>
+	<string name="g4">角色名称：李晨</string>
+	<string name="a4">角色技能：[牛气哄哄]，拥有黑牛之力的李晨可以跳的更高。</string>
+	<string name="g5">角色名称：郑恺</string>
+	<string name="a5">角色技能：[猎豹冲击]，技能将在后续版本中增加。</string>
+	<string name="g6">角色名称：王祖蓝</string>
+	<string name="a6">角色技能：[捡漏王]，捡漏王王祖蓝享有20% 的额外分数。</string>
+	<string name="g7">角色名称：王宝强</string>
+	<string name="a7">角色技能：[少林少林！]，少林宝强连障碍物也不敢靠近他，遇到的障碍物数目降低。</string>
+	<string name="gameover">GameOver!</string>
+</resources>

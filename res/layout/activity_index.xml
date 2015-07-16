@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+     >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop">
+
+        </ImageView>
+
+   <TableLayout
+       android:id="@+id/guys"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" 
+       android:layout_marginTop="20dp"
+       android:background="#FFFFFF">
+
+    <TableRow android:layout_height="wrap_content"
+     android:gravity="center_horizontal" >
+     <com.example.runningman.view.XCRoundRectImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/chenhe"
+         android:layout_marginRight="10dp"
+         android:id="@+id/chh"
+        >
+         </com.example.runningman.view.XCRoundRectImageView>
+          <com.example.runningman.view.XCRoundRectImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/baby"
+         android:id="@+id/bb"
+          android:layout_marginRight="10dp"
+        >
+         </com.example.runningman.view.XCRoundRectImageView>
+          <com.example.runningman.view.XCRoundRectImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/dengchao"
+         android:id="@+id/dc"
+          android:layout_marginRight="10dp"
+        >
+         </com.example.runningman.view.XCRoundRectImageView>
+          <com.example.runningman.view.XCRoundRectImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/lichen"
+          android:layout_marginRight="10dp"
+          android:id="@+id/lc"
+        >
+         </com.example.runningman.view.XCRoundRectImageView>
+         </TableRow>
+         <TableRow android:layout_height="wrap_content"
+     android:gravity="center_horizontal"
+     android:layout_marginTop="10dp">
+            <com.example.runningman.view.XCRoundRectImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/zhengkai"
+          android:layout_marginRight="10dp"
+          android:id="@+id/zk"
+        >
+         </com.example.runningman.view.XCRoundRectImageView>
+          <com.example.runningman.view.XCRoundRectImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/wangzulan"
+          android:layout_marginRight="10dp"
+          android:id="@+id/wzl"
+        >
+         </com.example.runningman.view.XCRoundRectImageView>
+          <com.example.runningman.view.XCRoundRectImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/wangbaoqiang"
+          android:layout_marginRight="10dp"
+          android:id="@+id/wbq"
+        >
+         </com.example.runningman.view.XCRoundRectImageView>
+             </TableRow>
+    </TableLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        >
+         <Button  
+    android:layout_width="120dip"  
+    android:layout_height="40dip"  
+    android:text="@string/start"       android:background="@drawable/bg_alibuybutton"
+    android:id="@+id/start" />
+         <RelativeLayout android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:padding="20dp"
+             >
+            <com.example.runningman.view.XCRoundRectImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/unknown"
+          android:layout_marginRight="10dp"
+          android:id="@+id/pic"
+        >
+         </com.example.runningman.view.XCRoundRectImageView>
+         <TextView android:text="@string/hint1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/name"
+             android:layout_toRightOf="@+id/pic"
+             android:layout_alignTop="@+id/pic"
+             android:textSize="@dimen/text"
+             ></TextView>
+         <TextView android:text="@string/hint2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/ability"
+             android:layout_toRightOf="@+id/pic"
+             android:layout_alignBottom="@+id/pic"
+             android:textSize="@dimen/text"
+             ></TextView>
+             </RelativeLayout>
+         </LinearLayout>
+</LinearLayout>
